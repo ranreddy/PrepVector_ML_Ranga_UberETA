@@ -5,7 +5,7 @@ import os
 import requests
 
 # Load the trained model
-with open('/content/drive/MyDrive/Maven/model.pkl', 'rb') as file:
+with open('data/model.pkl', 'rb') as file:
     model = pickle.load(file)
 
 # Create the Streamlit app
