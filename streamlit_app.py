@@ -5,7 +5,7 @@ import os
 import requests
 
 # Load the trained model
-with open('model.pkl', 'rb') as file:
+with open('PrepVector_ML_Ranga_UberETA/model.pkl', 'rb') as file:
     model = pickle.load(file)
 
 # Create the Streamlit app
