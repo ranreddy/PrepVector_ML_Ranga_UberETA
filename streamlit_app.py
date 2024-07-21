@@ -10,7 +10,7 @@ with open('/content/drive/MyDrive/Maven/model.pkl', 'rb') as file:
 
 # Create the Streamlit app
 def main():
-    st.title('Food Delivery Time Prediction')
+    st.title('Uber Food Delivery Time Prediction')
     
     # Input fields
     delivery_person_age = st.number_input('Delivery Person Age', min_value=18, max_value=100, value=25)
