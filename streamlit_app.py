@@ -30,7 +30,7 @@ def main():
         input_data = pd.DataFrame({
             'Delivery_person_Age': [delivery_person_age],
             'Delivery_person_Ratings': [delivery_person_ratings],
-            'Weatherconditions': [weather_conditions],
+            'Weather_conditions': [weather_conditions],
             'Road_traffic_density': [road_traffic_density],
             'Type_of_vehicle': [type_of_vehicle],
             'Vehicle_condition': [vehicle_condition],
